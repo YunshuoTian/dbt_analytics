@@ -1,9 +1,9 @@
 sources:
   - name: tpch
-    database: raw
-    schema: tpch_sf001
+    database: samples
+    schema: tpch
     tables:
-      - name: orders
+      - name: order
         description: "One record per order"
       - name: customer
         description: "One record per customer"
